@@ -30,3 +30,68 @@ $(document).ready(function(){
             $("#hidden-p3").hide();
     });
 });
+$(document).ready(function(){
+    $("#black-img").mouseover(function(){
+      $("#description1").css("display", "block");
+    });
+    $("#black-img").mouseout(function(){
+      $("#description1").css("display", "none");
+    });
+});
+
+$(document).ready(function(){
+    $("#ontario-img").mouseover(function(){
+      $("#description2").css("display", "block");
+    });
+    $("#ontario-img").mouseout(function(){
+      $("#description2").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#gold-img").mouseover(function(){
+      $("#description3").css("display", "block");
+    });
+    $("#gold-img").mouseout(function(){
+      $("#description3").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#jim-img").mouseover(function(){
+      $("#description4").css("display", "block");
+    });
+    $("#jim-img").mouseout(function(){
+      $("#description4").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#elena-img").mouseover(function(){
+      $("#description5").css("display", "block");
+    });
+    $("#elena-img").mouseout(function(){
+      $("#description5").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#calc-img").mouseover(function(){
+      $("#description6").css("display", "block");
+    });
+    $("#calc-img").mouseout(function(){
+      $("#description6").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#burned-img").mouseover(function(){
+      $("#description7").css("display", "block");
+    });
+    $("#burned-img").mouseout(function(){
+      $("#description7").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#giraffe-img").mouseover(function(){
+      $("#description8").css("display", "block");
+    });
+    $("#giraffe-img").mouseout(function(){
+      $("#description8").css("display", "none");
+    });
+});
