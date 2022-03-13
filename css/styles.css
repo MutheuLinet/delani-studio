@@ -126,3 +126,79 @@ h5 {
   text-align: center;
   padding-top: 20%;
 }
+#section6 {
+  background-image: url(../IP3/assets/backgrounds/c_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  height: 600px;
+  width: 100%;
+}
+input,
+.form {
+  color: #fff;
+}
+#name {
+  width: 28%;
+  border: solid white 2px;
+  background: none;
+  margin-left: 20%;
+  font-weight: bolder;
+  color: #fff;
+}
+#name::placeholder {
+  color: white;
+}
+#email {
+  width: 28%;
+  border: solid white 2px;
+  background: none;
+  display: inline;
+  margin-left: 2%;
+  font-weight: bolder;
+}
+#email::placeholder {
+  color: white;
+}
+textarea {
+  margin-top: 5%;
+  border: solid white 2px;
+  background: none;
+  border: 2px solid white;
+  margin-left: 36%;
+  font-weight: bolder;
+}
+textarea::placeholder {
+  color: white;
+}
+#submit {
+  margin-left: 46%;
+  background-color: lightgray;
+}
+.input {
+  border: 1px solid white;
+}
+
+#section7 {
+  height: 135px;
+  margin-top: 3%;
+}
+.card {
+  margin-left: 5%;
+  border: none;
+  overflow: auto;
+  display: inline;
+}
+.card-body {
+  overflow: auto;
+  display: inline;
+}
+#img1 {
+  height: 40px;
+  padding-left: 13%;
+  padding-right: 1%;
+}
+#img2 {
+  height: 40px;
+  padding-right: 1%;
+}
