@@ -95,25 +95,18 @@ $(document).ready(function(){
       $("#description8").css("display", "none");
     });
 });
-function formValidate(){
-    let name = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
-    let message = document.getElementById("message").value;
 
-    console.log(name);
-    console.log(email);
-    console.log(message); 
+$(document).ready(function(){
+    $("#submit-message").click(function(){
+        let name = $("input#name").val();
+        let email = $("input#email").val();
+        let message = $("textarea#message").val(); 
+        if($("input#name").val() && $("input#email").val()){
+          alert("Your message has been sent! Thank you " + name );
+        }
+        else{
+            alert("Kindly enter you name and email.");
+        }
+    });
+});
 
-    if(name == null || name == " "){
-      alert("Please fill in your name");
-      return false;
-     }else if (email == null || email == ""){
-      alert("Please enter your email");
-      return false;
-     }else if (message == null || message == ""){
-      alert("Kindly write your message");
-      return false;
-     }else{
-      alert("Your message has been sent " + name +"! Thank you!");
-     }
-};
