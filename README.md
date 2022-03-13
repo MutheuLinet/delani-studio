@@ -29,11 +29,12 @@ To access this project on your local files, you can clone it using these steps
 3. BOOTSTRAP
 4. GIT
 5. JAVASCRIPT
+6. JQUERY
 
 ### Live Site
 
 [Live Link](https://mutheulinet.github.io/delani-studio/)
 
-### Licence
+### License
 
 This project is under the [MIT](LICENSE) licence
