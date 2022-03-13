@@ -215,7 +215,6 @@
         class="validate"
         target="_blank"
         novalidate
-        onsubmit="formValidate();"
       >
         <div>
           <input type="text" id="name" placeholder="Name..." name="name" />
@@ -223,7 +222,7 @@
           <input type="email" id="email" placeholder="Email..." name="email" />
           <div class="col-8">
             <textarea
-              id="subject"
+              id="message"
               rows="10"
               cols="71"
               placeholder="Your text here..."
@@ -232,13 +231,16 @@
 
           <br />
           <br />
-          <button
-            id="submit"
-            type="submit"
-            onsubmit="formValidate(); return false;"
-          >
-            submit
-          </button>
+          <button id="submit" type="submit">subscribe</button>
+          <input
+            id="submit-message"
+            type="button"
+            onclick="formValidate(); return false;"
+            value="submit-message"
+            name="submit-message"
+            placeholder="submit"
+          />
+
           <br />
         </div>
       </form>
