@@ -1,0 +1,29 @@
+p {
+  text-align: center;
+}
+h1,
+h2 {
+  text-align: center;
+}
+p.white,
+h2.white,
+h1.white {
+  color: white;
+}
+#section1 {
+  background-image: url(../IP3/assets/backgrounds/h_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  height: 780px;
+  width: 100%;
+}
+#logo {
+  padding-top: 18%;
+  padding-bottom: 1%;
+  padding-left: 46%;
+}
+#mouse {
+  padding-top: 11%;
+  padding-left: 50%;
+}
