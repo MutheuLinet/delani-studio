@@ -167,13 +167,23 @@ textarea {
   border: 2px solid white;
   margin-left: 36%;
   font-weight: bolder;
+  color: #fff;
 }
 textarea::placeholder {
   color: white;
 }
 #submit {
-  margin-left: 46%;
+  margin-left: 43%;
   background-color: lightgray;
+}
+#submit::placeholder {
+  color: rgb(255, 255, 255);
+}
+#submit-message {
+  background-color: rgb(44, 43, 43);
+}
+#submit-message::value {
+  color: rgb(255, 255, 255);
 }
 .input {
   border: 1px solid white;
