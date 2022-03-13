@@ -212,3 +212,307 @@ textarea::placeholder {
   height: 40px;
   padding-right: 1%;
 }
+
+@media only screen and (max-width: 400px) {
+  #section2 {
+    height: 200px;
+  }
+  #section2 {
+    height: 530px;
+  }
+  #section5 {
+    height: 1350px;
+  }
+  #black-img,
+  #ontario-img,
+  #gold-img,
+  #jim-img,
+  #burned-img,
+  #giraffe-img,
+  #elena-img,
+  #calc-img {
+    padding-top: 5%;
+  }
+
+  p {
+    font-size: smaller;
+  }
+  #design-img1 {
+    height: 70px;
+    padding-left: 33%;
+    cursor: pointer;
+    margin-top: 4%;
+  }
+  #development-img {
+    height: 70px;
+    padding-left: 33%;
+    cursor: pointer;
+    margin-top: 4%;
+  }
+  #product-img {
+    height: 70px;
+    padding-left: 33%;
+    cursor: pointer;
+    margin-top: 4%;
+  }
+  textarea {
+    margin-top: 5%;
+    border: solid white 2px;
+    background: none;
+    border: 2px solid white;
+    margin-left: 36%;
+    font-weight: bolder;
+    color: #fff;
+    width: 70%;
+  }
+  #submit {
+    margin-left: 26%;
+    background-color: lightgray;
+  }
+  #img1 {
+    height: 20px;
+    padding-left: 11%;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+  #img2 {
+    height: 20px;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+  .card {
+    margin-left: 0%;
+  }
+  #logo {
+    padding-left: 40%;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  #section5 {
+    height: 1300px;
+  }
+  #black-img,
+  #ontario-img,
+  #gold-img,
+  #jim-img,
+  #burned-img,
+  #giraffe-img,
+  #elena-img,
+  #calc-img {
+    padding-top: 8%;
+    padding-left: 5%;
+  }
+  #p1 {
+    font-size: small;
+  }
+  p {
+    font-size: smaller;
+  }
+  #design-img1 {
+    height: 70px;
+    padding-left: 33%;
+    cursor: pointer;
+    margin-top: 4%;
+  }
+  #development-img {
+    height: 70px;
+    padding-left: 33%;
+    cursor: pointer;
+    margin-top: 4%;
+  }
+  #product-img {
+    height: 70px;
+    padding-left: 33%;
+    cursor: pointer;
+    margin-top: 4%;
+  }
+  textarea {
+    margin-top: 5%;
+    border: solid white 2px;
+    background: none;
+    border: 2px solid white;
+    margin-left: 36%;
+    font-weight: bolder;
+    color: #fff;
+    width: 70%;
+  }
+  #submit {
+    margin-left: 26%;
+    background-color: lightgray;
+  }
+  #img1 {
+    height: 20px;
+    padding-left: 11%;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+  #img2 {
+    height: 20px;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+  .card {
+    margin-left: 0%;
+  }
+  #logo {
+    padding-left: 40%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 742px) {
+  #section5 {
+    height: 1300px;
+  }
+  #black-img,
+  #ontario-img,
+  #gold-img,
+  #jim-img {
+    padding-top: 8%;
+    padding-left: 2%;
+  }
+  #burned-img,
+  #giraffe-img,
+  #elena-img,
+  #calc-img {
+    padding-top: 8%;
+    padding-left: 3%;
+  }
+  #design-img1 {
+    height: 70px;
+    padding-left: 33%;
+    cursor: pointer;
+    margin-top: 4%;
+  }
+  #development-img {
+    height: 70px;
+    padding-left: 33%;
+    cursor: pointer;
+    margin-top: 4%;
+  }
+  #product-img {
+    height: 70px;
+    padding-left: 33%;
+    cursor: pointer;
+    margin-top: 4%;
+  }
+  textarea {
+    margin-top: 5%;
+    border: solid white 2px;
+    background: none;
+    border: 2px solid white;
+    margin-left: 36%;
+    font-weight: bolder;
+    color: #fff;
+    width: 70%;
+  }
+  #submit {
+    margin-left: 32%;
+    background-color: lightgray;
+  }
+  #img1 {
+    height: 30px;
+    padding-left: 11%;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+  #img2 {
+    height: 30px;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+  .card {
+    margin-left: 0%;
+  }
+  #logo {
+    padding-left: 43%;
+  }
+}
+
+@media only screen and (min-width: 742px) and (max-width: 767px) {
+  #section5 {
+    height: 1300px;
+  }
+  #black-img,
+  #ontario-img,
+  #gold-img,
+  #jim-img {
+    padding-top: 8%;
+    padding-left: 2%;
+  }
+  #burned-img,
+  #giraffe-img,
+  #elena-img,
+  #calc-img {
+    padding-top: 8%;
+    padding-left: 12%;
+  }
+  #design-img1 {
+    height: 70px;
+    padding-left: 33%;
+    cursor: pointer;
+    margin-top: 4%;
+  }
+  #development-img {
+    height: 70px;
+    padding-left: 33%;
+    cursor: pointer;
+    margin-top: 4%;
+  }
+  #product-img {
+    height: 70px;
+    padding-left: 33%;
+    cursor: pointer;
+    margin-top: 4%;
+  }
+  textarea {
+    margin-top: 5%;
+    border: solid white 2px;
+    background: none;
+    border: 2px solid white;
+    margin-left: 36%;
+    font-weight: bolder;
+    color: #fff;
+    width: 70%;
+  }
+  #submit {
+    margin-left: 32%;
+    background-color: lightgray;
+  }
+  #img1 {
+    height: 30px;
+    padding-left: 11%;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+  #img2 {
+    height: 30px;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+  .card {
+    margin-left: 0%;
+  }
+  #logo {
+    padding-left: 43%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 930px) {
+  textarea {
+    margin-top: 5%;
+    border: solid white 2px;
+    background: none;
+    border: 2px solid white;
+    margin-left: 36%;
+    font-weight: bolder;
+    color: #fff;
+    width: 70%;
+  }
+  #submit {
+    margin-left: 25%;
+    background-color: lightgray;
+  }
+  #img1 {
+    padding-left: 5%;
+  }
+}
