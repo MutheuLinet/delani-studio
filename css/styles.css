@@ -38,3 +38,42 @@ h1.white {
   height: 400px;
   width: 100%;
 }
+#hidden-p1 {
+  overflow: auto;
+  display: inline;
+  display: none;
+  font-size: small;
+}
+#hidden-p2 {
+  overflow: auto;
+  display: inline;
+  display: none;
+  font-size: small;
+}
+#hidden-p3 {
+  overflow: auto;
+  display: inline;
+  display: none;
+  font-size: small;
+}
+h5 {
+  padding-left: 35%;
+}
+#design-img1 {
+  height: 70px;
+  padding-left: 33%;
+  cursor: pointer;
+  margin-top: 4%;
+}
+#development-img {
+  height: 70px;
+  padding-left: 38%;
+  cursor: pointer;
+  margin-top: 4%;
+}
+#product-img {
+  height: 70px;
+  padding-left: 43%;
+  cursor: pointer;
+  margin-top: 4%;
+}
