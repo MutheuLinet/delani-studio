@@ -38,7 +38,6 @@ $(document).ready(function(){
       $("#description1").css("display", "none");
     });
 });
-
 $(document).ready(function(){
     $("#ontario-img").mouseover(function(){
       $("#description2").css("display", "block");
@@ -95,18 +94,3 @@ $(document).ready(function(){
       $("#description8").css("display", "none");
     });
 });
-
-$(document).ready(function(){
-    $("#submit-message").click(function(){
-        let name = $("input#name").val();
-        let email = $("input#email").val();
-        let message = $("textarea#message").val(); 
-        if($("input#name").val() && $("input#email").val()){
-          alert("Your message has been sent! Thank you " + name );
-        }
-        else{
-            alert("Kindly enter you name and email.");
-        }
-    });
-});
-
