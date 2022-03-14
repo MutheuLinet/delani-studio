@@ -94,3 +94,17 @@ $(document).ready(function(){
       $("#description8").css("display", "none");
     });
 });
+$(document).ready(function(){
+  $("#mc-embedded-subscribe").click(function(){
+  let name = $("input#mce-NAME").val();
+  let email = $("input#mce-EMAIL").val();
+  let message = $("input#mce-MESSAGE").val(); 
+  if($("input#name").val() && $("input#email").val()){
+  alert("Your message has been sent! Thank you " + name );
+  }
+  else{
+  alert("Your message has been sent! Thank you " + name);
+  }
+  });
+  });
+  
