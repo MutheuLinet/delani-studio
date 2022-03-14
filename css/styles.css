@@ -196,6 +196,23 @@ h5 {
   height: 40px;
   padding-right: 1%;
 }
+@media only screen and (max-width: 767px) {
+  #description1,
+  #description2,
+  #description3,
+  #description4,
+  #description5,
+  #description6,
+  #description7,
+  #description8 {
+    display: transparent;
+    width: 0%;
+    height: 0%;
+    border: none;
+    text-align: end;
+    margin-left: 3%;
+  }
+}
 
 @media only screen and (max-width: 400px) {
   #section2 {
@@ -411,7 +428,14 @@ h5 {
     padding-left: 43%;
   }
 }
-
+@media only screen and (min-width: 638px) and (max-width: 708px) {
+  #burned-img,
+  #giraffe-img,
+  #elena-img,
+  #calc-img {
+    padding-left: 9%;
+  }
+}
 @media only screen and (min-width: 742px) and (max-width: 767px) {
   #section5 {
     height: 1300px;
